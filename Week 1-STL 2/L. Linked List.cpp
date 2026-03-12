@@ -3,10 +3,6 @@
 #define matador std::ios::sync_with_stdio(false); std::cin.tie(nullptr);
 using namespace std;
 
-bool compare(string a,string b){
-    return a.size() < b.size();
-}
-
 signed main()
 {
     matador 
