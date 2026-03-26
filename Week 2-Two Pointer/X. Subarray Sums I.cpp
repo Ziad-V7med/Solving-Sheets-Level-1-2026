@@ -17,7 +17,7 @@ signed main()
 
        sum += v[r];
        
-       while (sum > target && l <= r) {
+       while (sum > target) {
            sum -= v[l]; l++;
         } 
     
